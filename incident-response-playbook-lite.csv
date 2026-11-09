@@ -1,0 +1,13 @@
+incident_id,detected_at,title,severity,status,phase,affected_system,incident_lead,action_taken,lessons_learned
+INC-001,2026-01-05 09:12,Sample email service not sending,high,closed,recover,Sample Mail Server,A. Sample,"Restarted mail queue, verified delivery",Check the mail queue monitor every morning
+INC-002,2026-01-07 14:40,Sample file share slow for one office,medium,closed,lessons-learned,Sample File Server,B. Sample,"Moved backup window off working hours",Schedule backups outside working hours
+INC-003,2026-01-12 08:03,Sample VPN login failures,critical,closed,recover,Sample VPN Gateway,A. Sample,"Reset the gateway certificate, verified logins",Renew certificates two weeks before expiry
+INC-004,2026-01-15 11:25,Sample printer queue stuck,low,closed,lessons-learned,Sample Print Server,C. Sample,"Cleared the stuck job, restarted the spooler",Document the spooler restart steps
+INC-005,2026-01-19 16:50,Sample suspicious login attempts,high,closed,lessons-learned,Sample VPN Gateway,B. Sample,"Blocked the source address, forced password resets",Turn on login-attempt alerts
+INC-006,2026-01-23 10:15,Sample database backup failed,critical,closed,recover,Sample Backup Server,A. Sample,"Ran a manual backup, verified the restore",Test restores monthly not just backups
+INC-007,2026-01-27 13:30,Sample website shows error page,high,closed,lessons-learned,Sample Web Server,C. Sample,"Rolled back the bad update, verified the site",Test updates on a staging copy first
+INC-008,2026-02-02 09:05,Sample Wi-Fi drops in one meeting room,medium,closed,lessons-learned,Sample Wi-Fi Controller,B. Sample,"Moved the access point, re-measured signal",Survey coverage after any office move
+INC-009,2026-02-06 15:20,Sample antivirus alert on one laptop,medium,closed,lessons-learned,Sample Laptop 07,A. Sample,"Isolated the laptop, removed the file, rescanned",Keep the isolation steps printed at the desk
+INC-010,2026-02-10 08:45,Sample payroll app slow at month end,medium,open,contain,Sample Payroll App,B. Sample,"Limited logins to essential users only",
+INC-011,2026-02-12 12:00,Sample storage disk nearly full,high,open,triage,Sample File Server,C. Sample,"Identified old archives to move",
+INC-012,2026-02-14 09:30,Sample phishing email reported,high,open,contain,Sample Mail Server,A. Sample,"Warned all users, removed the message",
